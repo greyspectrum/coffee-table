@@ -19,3 +19,5 @@
 # :date:  July 25 2016
 # :version: 0.0.1
 ##############################################################################
+
+airplay-ng --death 0 -a [BSSID of victim network access point] mon0
