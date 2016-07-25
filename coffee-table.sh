@@ -10,6 +10,10 @@
 # Now, pull up a chair and enjoy :)
 #
 # Definitely illegal. Use at your own risk.
+#
+# Credit to Isis Lovecruft's blog for the DOS attack at the heart of this script:
+#
+# https://blog.patternsinthevoid.net/broadcast-de-auth-dos-attack-jamming-wifi-networks.html
 # 
 # :author: greyspectrum
 # :date:  July 25 2016
