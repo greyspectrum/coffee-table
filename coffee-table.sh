@@ -4,11 +4,11 @@
 # coffee-table
 # -----------
 # Isn't it annoying when you can't get a seat at a coffee shop?
-# Of course it is. DOS the wifi with airplay-ng and clear the place out.
+# Of course it is. DOS the wifi with aircrack-ng and clear the place out.
 # Now, pull up a chair and enjoy :)
 # Definitely illegal! Use at your own risk.
 #
-# Requires nm-tool, airplay-ng, and a wireless card that supports packet injection
+# Requires nm-tool, aircrack-ng, and a wireless card that supports packet injection
 # and monitoring.
 #
 # Credit to Isis Lovecruft's blog for the DOS attack at the heart of this script:
