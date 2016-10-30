@@ -8,6 +8,9 @@
 # Now, pull up a chair and enjoy :)
 # Definitely illegal! Use at your own risk.
 #
+# Requires nm-tool, airplay-ng, and a wireless card that supports packet injection
+# and monitoring.
+#
 # Credit to Isis Lovecruft's blog for the DOS attack at the heart of this script:
 #
 # https://blog.patternsinthevoid.net/broadcast-de-auth-dos-attack-jamming-wifi-networks.html
