@@ -29,4 +29,4 @@ rm output1.txt output2.txt output3.txt
 
 BSSID="BSSID.txt"
 
-airplay-ng --death 0 -a [$BSSID] mon0
+airplay-ng --deauth 0 -a [$BSSID] mon0
