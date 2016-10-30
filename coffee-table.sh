@@ -16,7 +16,7 @@
 # https://blog.patternsinthevoid.net/broadcast-de-auth-dos-attack-jamming-wifi-networks.html
 # 
 # :author: greyspectrum
-# :date:  October 30 2016
+# :date: October 30 2016
 # :version: 0.1.0
 ##############################################################################
 
