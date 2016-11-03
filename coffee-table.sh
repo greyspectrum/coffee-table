@@ -20,13 +20,7 @@
 # :version: 0.1.0
 ##############################################################################
 
-nm-tool | grep \* > output1.txt
-
-sed -e '1d' output1.txt > output2.txt
-sed 's/.*Infra, //' output2.txt > output3.txt
-sed 's/\,.*/,/' output3.txt > output4.txt
-sed -r 's/.{1}$//' output4.txt > BSSID.txt
-rm output1.txt output2.txt output3.txt output4.txt
+nm-tool | grep \* | sed -e '1d' | sed 's/.*Infra, //' | sed 's/\,.*/,/' | sed -r 's/.{1}$//' > BSSID.txt
 
 BSSID="BSSID.txt"
 
